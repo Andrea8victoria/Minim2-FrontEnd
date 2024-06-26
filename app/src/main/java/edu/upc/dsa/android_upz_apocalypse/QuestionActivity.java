@@ -30,10 +30,10 @@ public class QuestionActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
-        dateVal = findViewById(R.id.date);
-        messageVal = findViewById(R.id.message);
-        titleVal = findViewById(R.id.title);
-        senderVal = findViewById(R.id.sender);
+        dateVal = findViewById(R.id.dateVal);
+        messageVal = findViewById(R.id.messageVal);
+        titleVal = findViewById(R.id.titleVal);
+        senderVal = findViewById(R.id.senderVal);
         entregaButton = findViewById(R.id.entregaButton);
 
         sharedPreferences = getSharedPreferences("user_info", MODE_PRIVATE);
